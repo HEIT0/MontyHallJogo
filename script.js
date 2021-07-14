@@ -80,7 +80,6 @@ if (index2 > -1){
   outras.splice(index2,1)
 } 
 
-
 p1.innerHTML = `Na porta ${cabra[0]} há cabras, você quer permancer na porta que você escolheu ou mudar para porta ${outras[0]}? `
 }
 
