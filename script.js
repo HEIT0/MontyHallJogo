@@ -77,7 +77,7 @@ function escolher() {
       } else {
         port3.src = 'cabra.gif'
       }
-      outras = [1,2,3]
+      outras = [1, 2, 3]
       var index = outras.indexOf(a);
       if (index > -1) {
         outras.splice(index, 1)
