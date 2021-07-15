@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Monthy Hall Game</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
 	<h1>
 		Monthy Hall
@@ -18,6 +20,17 @@
 			Escolha uma das portas para ganhar o prêmio!
 		</p>
 	</section>
+	<div id='red'>
+
+		<input type="radio" id='sim' name='red' onclick="sim()" on-drag="sim()" on-tap="sim()" onchange="sim()"> <!--Seleção Sim-->
+      <label for="sim">Trocar</label>
+
+      <input type="radio" id='nao' name='red' checked onclick="nao()" on-drag="nao()" on-tap="nao()" onchange="nao()"> <!--Seleção Não-->
+      <label for="nao">Permanecer</label>
+
+    <br><input type="button" value="Confirmar" id='confirm' onclick='confirm()'>
+
+  </div>
         <center>
 		<div class="box" id="box0" onclick="clicar0()">
 			<img id='port1' src="porta.png"/>
@@ -33,16 +46,17 @@
     </div>
     <input type="button" value="Escolha" id="botaox" onclick="escolha()">
 
-    <input type="radio" id='sim' name='red' onclick="sim()" on-drag="sim()" on-tap="sim()" onchange="sim()"> <!--Seleção Sim-->
-      <label for="sim">Trocar</label>
-
-      <input type="radio" id='nao' name='red' checked onclick="nao()" on-drag="nao()" on-tap="nao()" onchange="nao()"> <!--Seleção Não-->
-      <label for="nao">Permanecer</label>
+   
 
     <section id="s2"> 
       <p>
       </p>
     </section>
+    <footer> <!--Creditos-->
+    <p id='credito'>
+      &copy; Heitor e Thiago
+    </p>
+</footer> <!--Creditos-->
     <script src="script.js"></script>
   </body>
 </html>
