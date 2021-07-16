@@ -2,36 +2,41 @@
 <html>
 
 <head>
+	<!--Config-->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Monthy Hall Game</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
+	<!--Css-->
 	<link rel="shortcut icon" href="icon.png">
+	<!--icone-->
 </head>
 
 <body>
 	<h1>
+		<!--Título-->
 		Monthy Hall
 	</h1>
 	<p>
+		<!--Enunciado-->
 		Atrás de uma das três portas há um carro e nas outras há cabras!
 	</p>
 	<section id="s1">
+		<!--Instrução-->
 		<p id="p1">
 			Escolha uma das portas para ganhar o prêmio!
 		</p>
 	</section>
 	<div id='red'>
-
-		<input type="radio" id='sim' name='red' onclick="sim()" on-drag="sim()" on-tap="sim()" onchange="sim()"> <!--Seleção Sim-->
+		<input type="radio" id='sim' name='red' onclick="sim()" on-drag="sim()" on-tap="sim()" onchange="sim()"> <!--Seleção Trocar-->
       <label for="sim">Trocar</label>
 
-      <input type="radio" id='nao' name='red' checked onclick="nao()" on-drag="nao()" on-tap="nao()" onchange="nao()"> <!--Seleção Não-->
+      <input type="radio" id='nao' name='red' checked onclick="nao()" on-drag="nao()" on-tap="nao()" onchange="nao()"> <!--Seleção Permanecer-->
       <label for="nao">Permanecer</label>
-
+      <!--Botão Confirmar-->
     <br><input type="button" value="Confirmar" id='confirm' onclick='confirm()'>
-
   </div>
+  <!--Portas-->
         <center>
 		<div class="box" id="box0" onclick="clicar0()">
 			<img id='port1' src="porta.png"/>
@@ -43,12 +48,9 @@
             <img id='port3'src="porta.png"/>
     </div>
         </center>
-    <div id="d2">
-    </div>
+    <!--Confirmar Escolha-->
     <input type="button" value="Escolha" id="botaox" onclick="escolher()">
-
-   
-
+    <!--Barra branca Finas-->
     <section id="s2"> 
       <p>
       </p>

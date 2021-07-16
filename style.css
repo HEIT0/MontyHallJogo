@@ -1,11 +1,11 @@
-h1{
+h1 { /*Título*/
   color:rgb(255, 227, 66);
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
   font: bold 29pt Goudy Stout;
   text-align:center;
 }
-p{
+p{ /*Enunciado*/
   color:rgb(253, 253, 253);
   -webkit-text-stroke-width: 0.2px;
   -webkit-text-stroke-color: black;
@@ -14,11 +14,11 @@ p{
   padding:10px;
   
 }
-body{
+body /*Corpo todo*/{
   background:rgb(47, 47, 92);
   color:white;
 }
-div.box {
+div.box /*Todas as Portas*/{
 	width: 238px;
 	display: inline-block;
   margin-right: auto;
@@ -26,7 +26,7 @@ div.box {
   box-shadow: 3px 3px 10px rgb(0, 0, 0);
   height: 494px;
 }
-p#p1{
+p#p1 /*Instruções*/{
   color:rgb(0, 0, 0);
   -webkit-text-stroke-width: 0.2px;
   -webkit-text-stroke-color: black;
@@ -34,15 +34,15 @@ p#p1{
   text-align: center;
   padding:10px;
 }
-section#s1{
+section#s1 /*Sessão das instruções*/{
   background: white;
   box-shadow: 3px 3px 0px rgb(168, 168, 168);
 }
-section#s2{
+section#s2/*Sessão final (Linha Branca)*/{
   background: white;
   box-shadow: 3px 3px 0px rgb(168, 168, 168);
 }
-input#botaox {
+input#botaox /*Botão: Confirmar Escolha*/ {
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -55,17 +55,16 @@ input#botaox {
 input:hover{
 background: #E0E0F8; 
 }
-div#box2{
+div#box2 /*Porta 3*/{
 margin-left: 50px;
 }
-div#box0{
+div#box0/*Porta 1*/{
 margin-right: 50px;
 }
-div#red{
+div#red /*Escolha de troca ou permanência*/ {
   text-align: center;
-
 }
-input#confirm{
+input#confirm /*Confirmar Escolha*/ {
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -75,7 +74,7 @@ input#confirm{
   border-radius: 10px;
   box-shadow: 1px 1px 2px white;
 }
-p#credito {
+p#credito /*Créditos*/ {
   color: white;
   font: bold 12pt Arial;
   margin-left: auto;
